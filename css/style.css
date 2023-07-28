@@ -22,7 +22,7 @@ body {
   padding: 0 32px;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(0deg, #001e6c, #001b5e,   #035397, #e8630a);
+  background: linear-gradient(0deg, #001e6c, #001b5e, #001b5e,  #035397, #e8630a);
   background-size: 300% 300%;
   animation: color 12s infinite;
 }
@@ -239,6 +239,7 @@ h2,
 .slider{
     z-index: 1;
 }
+
 
 .bubble {
     position: absolute;
