@@ -8,48 +8,47 @@ body {
   background: #fde5ec #b9f3fc #4e4feb #000000;
   position: relative;
 }
-#cabecera{
-width: 100%;
-position: fixed;
-top: 0;
-left: 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 4;
-box-sizing: border-box;
-height: 70px;
-transition: 1s;
-padding: 0 30px;
-font-family: 'Roboto';
+#cabecera {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 4;
+  box-sizing: border-box;
+  height: 70px;
+  transition: 1s;
+  padding: 0 30px;
+  font-family: "Roboto";
 }
-#cabecera p{
+#cabecera p {
   font-weight: 700;
   font-size: 30px;
   color: #9c9c9c;
 }
-#cabecera ul{
+#cabecera ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
 }
-#cabecera li{
+#cabecera li {
   margin: 0 16px;
   font-weight: 500;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   cursor: pointer;
   transition: 0.5s;
   color: transparent;
 }
-#cabecera a{
+#cabecera a {
   text-decoration: none;
 }
-.ct{
+.ct {
   color: #9c9c9c;
-
 }
-.ctac{
+.ctac {
   padding: 10px 24px;
   border-radius: 30px;
   background-color: black;
@@ -59,12 +58,12 @@ font-family: 'Roboto';
   transition: 0.5s;
   text-decoration: none;
 }
-.cta{
+.cta {
   color: white;
 }
 
-#cabecera li a:hover{
-  color: #FF8E9E;
+#cabecera li a:hover {
+  color: #ff8e9e;
   transition: 0.5s;
 }
 
@@ -126,29 +125,29 @@ font-family: 'Roboto';
 .bolita2 {
   width: 120px;
   height: 120px;
-  background: #ACFADF;
+  background: #acfadf;
   position: absolute;
   top: 425px;
   border-radius: 50%;
   z-index: 1;
   right: 56px;
 }
-.bolita4{
+.bolita4 {
   width: 200px;
   height: 200px;
   position: absolute;
   top: 300px;
   right: -300px;
-  background: #FFA;
+  background: #ffa;
   z-index: 1;
   border-radius: 50%;
 }
-.bolita3{
+.bolita3 {
   width: 200px;
   height: 200px;
   position: absolute;
   z-index: 1;
-  background: #7B113A;
+  background: #7b113a;
   border-radius: 50%;
   top: 350px;
   left: -300px;
@@ -302,9 +301,6 @@ font-family: 'Roboto';
   bottom: 32px;
 }
 
-
-
-
 .presentacion__secundaria {
   display: flex;
   align-items: center;
@@ -318,7 +314,7 @@ font-family: 'Roboto';
   overflow: hidden;
   padding: 0 100px;
 }
-.wave{
+.wave {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -328,7 +324,7 @@ font-family: 'Roboto';
   background-size: 1000px 100px;
   animation: wave 15s linear infinite;
 }
-.wave1{
+.wave1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -339,33 +335,33 @@ font-family: 'Roboto';
   transform: rotate(180deg);
   animation: wave1 15s linear infinite;
 }
-@keyframes wave{
-  0%{
+@keyframes wave {
+  0% {
     background-position-x: 0;
   }
-  100%{
-    background-position-x:  1000px; ;
+  100% {
+    background-position-x: 1000px;
   }
 }
-@keyframes wave1{
-  0%{
+@keyframes wave1 {
+  0% {
     background-position-x: 0;
   }
-  100%{
-    background-position-x:  1000px; ;
+  100% {
+    background-position-x: 1000px;
   }
 }
 .presentacion__secundaria h2 {
   text-align: center;
   margin-bottom: 0;
   font-weight: 300;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 20px;
-  color: #F86F03;
+  color: #f86f03;
 }
-.presentacion__secundaria h1{
+.presentacion__secundaria h1 {
   margin-bottom: 32px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
 }
 .presentacion__secundaria p {
@@ -373,24 +369,23 @@ font-family: 'Roboto';
   font-family: "Roboto";
   font-size: 16px;
 }
-.presentacion__secundaria li{
+.presentacion__secundaria li {
   list-style: none;
   padding-left: 32px;
   position: relative;
-
 }
-.presentacion__secundaria li:before{
-    content: "";
-    position: absolute;
-    background-color: #F86F03;
-    width: 8px;
-    height: 8px;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    border: solid 0.0625rem rgba(205, 119, 13, 0.1);
-    box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.1875rem rgba(228, 133, 18, 0.1);
+.presentacion__secundaria li:before {
+  content: "";
+  position: absolute;
+  background-color: #f86f03;
+  width: 8px;
+  height: 8px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: solid 0.0625rem rgba(205, 119, 13, 0.1);
+  box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.1875rem rgba(228, 133, 18, 0.1);
 }
 .presentacion__secundaria-container {
   display: grid;
@@ -414,7 +409,6 @@ font-family: 'Roboto';
   /* box-shadow: 0px 0px 12px -8px #000; */
 }
 
-
 /* Comenzamos tercera entrada*/
 .presentacion__tercera {
   display: flex;
@@ -428,11 +422,11 @@ font-family: 'Roboto';
   background: linear-gradient(0deg, #0c192c, #161e54);
   position: relative;
 }
-.presentacion__tercera h2{
+.presentacion__tercera h2 {
   position: absolute;
   top: 88px;
 }
-.magia{
+.magia {
   display: flex;
   position: absolute;
   top: -64px;
@@ -446,7 +440,7 @@ font-family: 'Roboto';
   background: white;
   animation: aparece 10s linear infinite;
 }
-.magia1{
+.magia1 {
   display: flex;
   position: absolute;
   bottom: -120px;
@@ -460,7 +454,7 @@ font-family: 'Roboto';
   background: white;
   animation: aparece 18s linear infinite;
 }
-.magia2{
+.magia2 {
   display: flex;
   position: absolute;
   bottom: -113px;
@@ -474,7 +468,7 @@ font-family: 'Roboto';
   background: white;
   animation: aparece 25s linear infinite;
 }
-.magia3{
+.magia3 {
   display: flex;
   position: absolute;
   bottom: 0px;
@@ -488,7 +482,7 @@ font-family: 'Roboto';
   background: white;
   animation: aparece 13s linear infinite;
 }
-.magia4{
+.magia4 {
   display: flex;
   position: absolute;
   top: 27px;
@@ -502,10 +496,10 @@ font-family: 'Roboto';
   background: white;
   animation: aparece 9s linear infinite;
 }
-.magia5{
+.magia5 {
   display: flex;
   position: absolute;
-  top:  -70px;
+  top: -70px;
   left: 420px;
   width: 55px;
   height: 55px;
@@ -520,33 +514,32 @@ font-family: 'Roboto';
 .magia2 img,
 .magia3 img,
 .magia4 img,
-.magia5 img{
+.magia5 img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 .magia img,
-.magia1 img{
+.magia1 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
-.magia3 img{
+.magia3 img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
 }
 @keyframes aparece {
   0% {
-    transform:  scale(0);
+    transform: scale(0);
   }
   50% {
-    transform:  scale(0.5);
+    transform: scale(0.5);
   }
   100% {
-    transform:  scale(1);
+    transform: scale(1);
   }
-  
 }
 .presentacion__tercera-container {
   display: flex;
@@ -611,13 +604,36 @@ h2,
   z-index: 1;
   display: flex;
 }
-.contenedor {
+.slider__card {
   display: flex;
-  width: 400px;
-  height: 150px;
-  background: #749bc2;
+  justify-content: center;
+  width: 350px;
+  height: 450px;
   margin: 0 5px;
+  border-radius: 1rem;
+  margin: 0 20px;
+  background: linear-gradient(#EEEEEE, #EEEEEE) padding-box, linear-gradient(to bottom, rgba(185, 185, 185, 0.44), rgba(94, 94, 94, 0.58)) border-box;
+  border: 1px solid gray;
+  transition: box-shadow 300ms ease-in-out, transform 300ms ease-in-out;
+  flex-direction: column;
 }
+.slider__card:hover{
+  box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.54);
+  transform: translate(-1px, -8px);
+}
+
+.slider__card a {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  gap: 10px;
+}
+
 
 .bubble {
   position: absolute;
@@ -647,7 +663,11 @@ h2,
     transform: translate(-10vh) scale(1);
   }
 }
-.proyectos img {
+.paginas{
   width: 300px;
   height: 170px;
+}
+.slider__card-icono {
+  width: 70px;
+  height: 70px;
 }
