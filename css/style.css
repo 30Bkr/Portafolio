@@ -231,9 +231,9 @@ body {
   transition: 0.75s;
 }
 .btn-cv:hover {
-  background: #fff;
-  color: #ed0020;
-  box-shadow: 0 0 10px #fd0054, 0 0 40px #fd0054, 0 0 8px #fd0054;
+  background: transparent;
+  color: #4f1ae0;
+  box-shadow: 0 0 10px #150050, 0 0 40px #150050, 0 0 8px #150050;
   transition-delay: 1s;
   border-radius: 8px;
 }
@@ -246,7 +246,7 @@ body {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, red);
+  background: linear-gradient(90deg, transparent, #150050);
 }
 .btn-cv:hover #span1 {
   left: 100%;
@@ -257,7 +257,7 @@ body {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, red);
+  background: linear-gradient(270deg, transparent, #150050);
 }
 .btn-cv:hover #span3 {
   right: 100%;
@@ -269,7 +269,7 @@ body {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(270deg, transparent, red);
+  background: linear-gradient(270deg, transparent, #150050);
 }
 .btn-cv:hover #span2 {
   top: 100%;
@@ -281,7 +281,7 @@ body {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, red);
+  background: linear-gradient(360deg, transparent, #150050);
 }
 .btn-cv:hover #span4 {
   bottom: 100%;
