@@ -5,7 +5,7 @@ window.addEventListener('scroll', ()=> {
         header.style.backgroundColor = 'transparent'
         header.style.boxShadow = '0px 0px 10px 4px black'
     } else{
-        header.style.backgroundColor = 'white'
+        header.style.backgroundColor = 'transparent'
 
     }
 })
