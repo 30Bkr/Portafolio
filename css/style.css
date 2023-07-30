@@ -214,12 +214,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 32px;
-  color: black;
+  color: white;
 }
 .presentacion__principal p {
   text-align: center;
   width: 300px;
-  color: #001c30;
+  color: white;
   margin-top: 20px;
 }
 .btn-cv {
@@ -227,7 +227,7 @@ body {
   display: inline-block;
   font-family: "Roboto", sans-serif;
   padding: 15px 30px;
-  color: #001c30;
+  color: white;
   letter-spacing: 2px;
   font-size: 20px;
   text-decoration: none;
