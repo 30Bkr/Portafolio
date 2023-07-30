@@ -160,13 +160,9 @@ body {
   box-shadow: 0px 0px 16px 4px black;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#414551, #908268) padding-box,
-    linear-gradient(
-        to bottom,
-        rgba(185, 185, 185, 0.44),
-        rgba(94, 94, 94, 0.58)
-      )
-      border-box;
+  background-image: url(../image//universo.jpg);
+  background-position: center center;
+  background-size: cover;
   color: white;
   width: 400px;
   height: 500px;
