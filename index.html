@@ -14,233 +14,255 @@
     <script type="module" src="./js/script.js" defer></script>
   </head>
   <body>
-    <nav id="cabecera">
-      <p>Briant Carrillo</p>
-      <ul>
-        <li><a href="#inicio" class="ct">Inicio</a></li>
-        <li><a href="#habilidades" class="ct">Habilidades</a></li>
-        <li><a href="#sobreMi" class="ct">Sobre mi</a></li>
-        <li><a href="#proyectos" class="ct">proyectos</a></li>
-        <li><a href="#proyectos" class="cta ctac">Contactame</a></li>
-      </ul>
-    </nav>
-    <section class="presentacion">
-      <div class="presentacion__principal" id="inicio">
-        <div class="contenedor-bolitas">
-          <span class="bolita"></span>
-          <span class="bolita1"></span>
-          <span class="bolita2"></span>
-          <span class="bolita3"></span>
-          <span class="bolita4"></span>
+    <div class="contenedor-contacto" id="contactame">
+      <div class="contacto">
+        <button id="cerrar-popup" type="button">x</button>
+        Contactame
+      </div>
+    </div>
 
-          <div class="prensentacion-card">
-            <div class="presentacion-card-img">
-              <img src="./image/briant.jpeg" alt="imagen briant" />
+    <div class="contenedor-contacto1" id="perciana">
+      <nav id="cabecera">
+        <p>Briant Carrillo</p>
+        <ul>
+          <li><a href="#inicio" class="ct">Inicio</a></li>
+          <li><a href="#habilidades" class="ct">Habilidades</a></li>
+          <li><a href="#sobreMi" class="ct">Sobre mi</a></li>
+          <li><a href="#proyectos" class="ct">proyectos</a></li>
+          <li><button type="button" class="cta ctac" id="popup">Contactame</button></li>
+        </ul>
+      </nav>
+
+      <section class="presentacion">
+        <div class="presentacion__principal" id="inicio">
+          <div class="contenedor-bolitas">
+            <span class="bolita"></span>
+            <span class="bolita1"></span>
+            <span class="bolita2"></span>
+            <span class="bolita3"></span>
+            <span class="bolita4"></span>
+
+            <div class="prensentacion-card">
+              <div class="presentacion-card-img">
+                <img src="./image/briant.jpeg" alt="imagen briant" />
+              </div>
+
+              <h1>Briant Carrillo</h1>
+              <h2>Programador Junior</h2>
+              <p>
+                Apasionado por el conocimiento, la vida, el deporte y la
+                <strong>programacion</strong>
+              </p>
+              <div class="presentacion-card-buttom">
+                <a
+                  download="Briant Carrillo"
+                  href="cv briant.pdf"
+                  class="btn-cv"
+                >
+                  <span id="span1"></span>
+                  <span id="span2"></span>
+                  <span id="span3"></span>
+                  <span id="span4"></span>
+                  Descargar CV
+                </a>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <h1>Briant Carrillo</h1>
-            <h2>Programador Junior</h2>
-            <p>
-              Apasionado por el conocimiento, la vida, el deporte y la
-              <strong>programacion</strong>
-            </p>
-            <div class="presentacion-card-buttom">
-              <a download="Briant Carrillo" href="cv briant.pdf" class="btn-cv">
-                <span id="span1"></span>
-                <span id="span2"></span>
-                <span id="span3"></span>
-                <span id="span4"></span>
-                Descargar CV
-              </a>
+        <div class="presentacion__secundaria" id="habilidades">
+          <div class="wave"></div>
+          <div class="wave1"></div>
+
+          <div class="presentacion__secundaria-text">
+            <h2>Quien soy?</h2>
+            <h1>
+              Quieres Conocer algunas de mis aptitudes, habilidades o
+              conocimiento?
+            </h1>
+            <p>Estas son algunas de mis mas fuertes Aptitudes y Habilidades</p>
+            <ul>
+              <li>Creatividad</li>
+              <li>Iniciativa</li>
+              <li>Liderazgo</li>
+              <li>Perseverancia</li>
+              <li>Resolucion de problemas</li>
+              <li>Flexibilidad para el aprendizaje</li>
+            </ul>
+          </div>
+          <div class="presentacion__secundaria-container">
+            <div class="icons-container">
+              <img src="./image/html.png" alt="" />
+            </div>
+            <div>
+              <img src="./image/css.png" alt="iconos de habilidades" />
+            </div>
+            <div>
+              <img src="./image/javascript.png" alt="" />
+            </div>
+            <div>
+              <img src="./image/Node.js.png" alt="" />
+            </div>
+            <div>
+              <img src="./image/react.png" alt="" />
+            </div>
+            <div>
+              <img src="./image/next.png" alt="" />
+            </div>
+            <div>
+              <img src="./image/tailwind-css-icon.webp" alt="" />
+            </div>
+            <div>
+              <img src="./image/npm.webp" alt="" />
+            </div>
+            <div>
+              <img src="./image/GitHub.png" alt="" />
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="presentacion__secundaria" id="habilidades">
-        <div class="wave"></div>
-        <div class="wave1"></div>
+        <div class="presentacion__tercera" id="sobreMi">
+          <h2>Hobbies</h2>
 
-        <div class="presentacion__secundaria-text">
-          <h2>Quien soy?</h2>
-          <h1>
-            Quieres Conocer algunas de mis aptitudes, habilidades o
-            conocimiento?
-          </h1>
-          <p>Estas son algunas de mis mas fuertes Aptitudes y Habilidades</p>
-          <ul>
-            <li>Creatividad</li>
-            <li>Iniciativa</li>
-            <li>Liderazgo</li>
-            <li>Perseverancia</li>
-            <li>Resolucion de problemas</li>
-            <li>Flexibilidad para el aprendizaje</li>
-          </ul>
-        </div>
-        <div class="presentacion__secundaria-container">
-          <div class="icons-container">
-            <img src="./image/html.png" alt="" />
-          </div>
-          <div>
-            <img src="./image/css.png" alt="iconos de habilidades" />
-          </div>
-          <div>
-            <img src="./image/javascript.png" alt="" />
-          </div>
-          <div>
-            <img src="./image/Node.js.png" alt="" />
-          </div>
-          <div>
-            <img src="./image/react.png" alt="" />
-          </div>
-          <div>
-            <img src="./image/next.png" alt="" />
-          </div>
-          <div>
-            <img src="./image/tailwind-css-icon.webp" alt="" />
-          </div>
-          <div>
-            <img src="./image/npm.webp" alt="" />
-          </div>
-          <div>
-            <img src="./image/GitHub.png" alt="" />
+          <div class="presentacion__tercera-container">
+            <div class="magia">
+              <img src="./image/pizza.png" alt="" />
+            </div>
+            <div class="magia1">
+              <img src="./image/sushi.webp" alt="" />
+            </div>
+            <div class="magia2">
+              <img src="./image/hamburguesas.webp" alt="" />
+            </div>
+            <div class="magia3">
+              <img src="./image/manzana.png" alt="" />
+            </div>
+            <div class="magia4">
+              <img src="./image/mango.webp" alt="" />
+            </div>
+            <div class="magia5">
+              <img src="./image/banana.png" alt="" />
+            </div>
+            <figure>
+              <img src="./image/amigos.webp" alt="" />
+              <p>Pasar momentos con Familia y Amigos</p>
+            </figure>
+            <figure>
+              <img src="./image/futbol.jpg" alt="" />
+              <p>Jugar futbol</p>
+            </figure>
+            <figure>
+              <img src="./image/cine.jpg" alt="" />
+              <p>Ver Peliculas</p>
+            </figure>
+            <figure>
+              <img src="./image/entrenar.jpg" alt="" />
+              <p>Mantenerme Saludable</p>
+            </figure>
+            <figure>
+              <img src="./image/videojuego.jpg" alt="" />
+              <p>Jugar Video Juegos</p>
+            </figure>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="presentacion__tercera" id="sobreMi">
-        <h2>Hobbies</h2>
-
-        <div class="presentacion__tercera-container">
-          <div class="magia">
-            <img src="./image/pizza.png" alt="" />
+      <section class="proyectos" id="proyectos">
+        <div class="slider">
+          <div class="slider__card">
+            <div class="slider__card-1">
+              <a
+                href="https://30bkr.github.io/landingpage/"
+                rel="noopener"
+                target="_blank"
+                >Landingpage<img
+                  class="paginas"
+                  src="./image//ladingpage.png"
+                  alt=""
+              /></a>
+            </div>
+            <p>Lenguajes</p>
+            <div class="slider__card-2">
+              <img src="./image/css.png" alt="" class="slider__card-icono" />
+              <img src="./image/html.png" alt="" class="slider__card-icono" />
+            </div>
           </div>
-          <div class="magia1">
-            <img src="./image/sushi.webp" alt="" />
-          </div>
-          <div class="magia2">
-            <img src="./image/hamburguesas.webp" alt="" />
-          </div>
-          <div class="magia3">
-            <img src="./image/manzana.png" alt="" />
-          </div>
-          <div class="magia4">
-            <img src="./image/mango.webp" alt="" />
-          </div>
-          <div class="magia5">
-            <img src="./image/banana.png" alt="" />
-          </div>
-          <figure>
-            <img src="./image/amigos.webp" alt="" />
-            <p>Pasar momentos con Familia y Amigos</p>
-          </figure>
-          <figure>
-            <img src="./image/futbol.jpg" alt="" />
-            <p>Jugar futbol</p>
-          </figure>
-          <figure>
-            <img src="./image/cine.jpg" alt="" />
-            <p>Ver Peliculas</p>
-          </figure>
-          <figure>
-            <img src="./image/entrenar.jpg" alt="" />
-            <p>Mantenerme Saludable</p>
-          </figure>
-          <figure>
-            <img src="./image/videojuego.jpg" alt="" />
-            <p>Jugar Video Juegos</p>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="proyectos" id="proyectos">
-      <div class="slider">
-        <div class="slider__card">
-          <div class="slider__card-1">
-            <a
-              href="https://30bkr.github.io/landingpage/"
-              rel="noopener"
-              target="_blank"
-              >Landingpage<img
-                class="paginas"
-                src="./image//ladingpage.png"
+          <div class="slider__card">
+            <div class="slider__card-1">
+              <a
+                href="https://proyecto-vert-one.vercel.app/"
+                rel="noopener"
+                target="_blank"
+                >Sistema de Ventas<img
+                  class="paginas"
+                  src="./image/proyecto.png"
+                  alt=""
+              /></a>
+            </div>
+            <p>Lenguajes</p>
+            <div class="slider__card-2">
+              <img src="./image/next.png" alt="" class="slider__card-icono" />
+              <img
+                src="./image/tailwind-css-icon.webp"
                 alt=""
-            /></a>
-          </div>
-          <p>Lenguajes</p>
-          <div class="slider__card-2">
-            <img src="./image/css.png" alt="" class="slider__card-icono" />
-            <img src="./image/html.png" alt="" class="slider__card-icono" />
-          </div>
-        </div>
-        <div class="slider__card">
-          <div class="slider__card-1">
-            <a
-              href="https://proyecto-vert-one.vercel.app/"
-              rel="noopener"
-              target="_blank"
-              >Sistema de Ventas<img
-                class="paginas"
-                src="./image/proyecto.png"
+                class="slider__card-icono"
+              />
+              <img
+                src="./image/javascript.png"
                 alt=""
-            /></a>
+                class="slider__card-icono"
+              />
+              <img src="./image/html.png" alt="" class="slider__card-icono" />
+            </div>
           </div>
-          <p>Lenguajes</p>
-          <div class="slider__card-2">
-            <img src="./image/next.png" alt="" class="slider__card-icono" />
-            <img
-              src="./image/tailwind-css-icon.webp"
-              alt=""
-              class="slider__card-icono"
-            />
-            <img
-              src="./image/javascript.png"
-              alt=""
-              class="slider__card-icono"
-            />
-            <img src="./image/html.png" alt="" class="slider__card-icono" />
+
+          <div class="slider__card">
+            <div class="slider__card-1">
+              <a
+                href="https://dashbroard1.vercel.app/"
+                rel="noopener"
+                target="_blank"
+                >Dashboard<img
+                  class="paginas"
+                  src="./image/dashboard.png"
+                  alt=""
+              /></a>
+            </div>
+            <p>Lenguajes</p>
+            <div class="slider__card-2">
+              <img src="./image/next.png" alt="" class="slider__card-icono" />
+              <img
+                src="./image/tailwind-css-icon.webp"
+                alt=""
+                class="slider__card-icono"
+              />
+              <img src="./image/html.png" alt="" class="slider__card-icono" />
+            </div>
           </div>
         </div>
 
-        <div class="slider__card">
-          <div class="slider__card-1">
-            <a
-              href="https://dashbroard1.vercel.app/"
-              rel="noopener"
-              target="_blank"
-              >Dashboard<img class="paginas" src="./image/dashboard.png" alt=""
-            /></a>
-          </div>
-          <p>Lenguajes</p>
-          <div class="slider__card-2">
-            <img src="./image/next.png" alt="" class="slider__card-icono" />
-            <img
-              src="./image/tailwind-css-icon.webp"
-              alt=""
-              class="slider__card-icono"
-            />
-            <img src="./image/html.png" alt="" class="slider__card-icono" />
-          </div>
+        <div class="bubble">
+          <span style="--i: 11"></span>
+          <span style="--i: 22"></span>
+          <span style="--i: 14"></span>
+          <span style="--i: 25"></span>
+          <span style="--i: 17"></span>
+          <span style="--i: 23"></span>
+          <span style="--i: 13"></span>
+          <span style="--i: 10"></span>
+          <span style="--i: 21"></span>
+          <span style="--i: 14"></span>
+          <span style="--i: 23"></span>
+          <span style="--i: 11"></span>
         </div>
-      </div>
+      </section>
+    </div>
 
-      <div class="bubble">
-        <span style="--i: 11"></span>
-        <span style="--i: 22"></span>
-        <span style="--i: 14"></span>
-        <span style="--i: 25"></span>
-        <span style="--i: 17"></span>
-        <span style="--i: 23"></span>
-        <span style="--i: 13"></span>
-        <span style="--i: 10"></span>
-        <span style="--i: 21"></span>
-        <span style="--i: 14"></span>
-        <span style="--i: 23"></span>
-        <span style="--i: 11"></span>
-      </div>
-    </section>
-
-    <script href="./js/esto.js"></script>
+    <script href="./js/esto.js">
+      // function toggle(){
+      //   let vista = document.getElementById('perciana')
+      //   vista.classList.toggle('active')
+      // }
+    </script>
   </body>
 </html>
