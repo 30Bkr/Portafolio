@@ -17,7 +17,27 @@
     <div class="contenedor-contacto" id="contactame">
       <div class="contacto">
         <button id="cerrar-popup" type="button">x</button>
-        Contactame
+        <h2>Contactame</h2>
+        <form class="contacto__formulario" action="https://formsubmit.co/brianttd24.7@gmail.com" method="POST">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" placeholder="Nombre" />
+
+          <label for="telefono">Telefono</label>
+          <input
+            type="text"
+            name="telefono"
+            id="telefono"
+            placeholder="Telefono"
+          />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" />
+          
+          <label for="message">Mensaje</label>
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje..."></textarea>
+
+          <input class="correo" type="submit" value="Enviar">
+        </form>
       </div>
     </div>
 
@@ -29,7 +49,11 @@
           <li><a href="#habilidades" class="ct">Habilidades</a></li>
           <li><a href="#sobreMi" class="ct">Sobre mi</a></li>
           <li><a href="#proyectos" class="ct">proyectos</a></li>
-          <li><button type="button" class="cta ctac" id="popup">Contactame</button></li>
+          <li>
+            <button type="button" class="cta ctac" id="popup">
+              Contactame
+            </button>
+          </li>
         </ul>
       </nav>
 

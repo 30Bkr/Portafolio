@@ -4,6 +4,7 @@ function iniciarPagina() {
 
   let cerrar = document.getElementById('cerrar-popup')
   cerrar.addEventListener('click', toggle)
+
 }
 
 let header = document.getElementById("cabecera");
