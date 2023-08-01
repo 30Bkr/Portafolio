@@ -835,4 +835,10 @@ h2,
   .presentacion__secundaria-container{
     margin-top: 32px;
   }
+  .presentacion__tercera-container{
+    width: 90%;
+  }
+  .presentacion__tercera-container figure:hover{
+    width: 120px;
+  }
 }
