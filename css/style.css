@@ -788,3 +788,22 @@ h2,
   width: 100%;
   font-family: 'Roboto';
 }
+@media screen and (max-width:500px) {
+  #cabecera{
+    height: 60px;
+    width: 100%
+  }
+  .ct,.magia5,.magia4,.magia1,.magia3,.magia,.bolita4{
+    display: none;
+  }
+  #cabecera p{
+    font-size: 16px;
+  }
+  .presentacion__principal{
+    width: 100vw;
+  }
+  .prensentacion-card{
+    width: 300px;
+
+  }
+}
