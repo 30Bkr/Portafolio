@@ -711,6 +711,8 @@ h2,
   transition: 1s;
 }
 #cerrar-popup{
+  box-shadow: 0px 0px 8px blue;
+  border: 1px solid black;
   position: absolute;
   top: 16px;
   right: 24px;
@@ -791,10 +793,14 @@ h2,
 @media screen and (max-width:500px) {
   #cabecera{
     height: 60px;
-    width: 100%
+    width: 100%;
+    position: fixed;
   }
   .ct,.magia5,.magia4,.magia1,.magia3,.magia,.bolita4{
     display: none;
+  }
+  .bolita{
+    right: -25px;
   }
   #cabecera p{
     font-size: 16px;
@@ -805,5 +811,21 @@ h2,
   .prensentacion-card{
     width: 300px;
 
+  }
+  .contacto{
+    width: 300px;
+  }
+  .contacto__text h2{
+    font-size: 20px;
+  }
+  #cerrar-popup{
+    width: 27px;
+    height: 27px;
+  }
+  .wave,.wave1{
+    height: 64px;
+  }
+  .presentacion__secundaria{
+    padding: 0;
   }
 }
