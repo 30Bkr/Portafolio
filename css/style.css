@@ -677,14 +677,10 @@ h2{
       )
       border-box;
   border: 1px solid gray;
-  transition: box-shadow 300ms ease-in-out, transform 300ms ease-in-out;
   flex-direction: column;
   font-family: "Roboto";
 }
-.slider__card:hover {
-  box-shadow: 0px 26px 49p33x rgba(146, 165, 184, 0.54);
-  transform: translate(-1px, -8px);
-}
+
 
 .slider__card a {
   padding-top: 24px;
@@ -914,5 +910,22 @@ h2{
   .presentacion__tercera-container figure:hover{
     width: 120px;
   }
-
+  .proyectos p {
+    margin: 40px 0;
+  }
+  .slider__card{
+    height: 400px;
+  }
+  .slider{
+    width: 300px;
+    height: 480px;
+  }
+  .slide1{
+    right: -64px;
+    top: 172px;
+  }
+  .slide2{
+    left: -72px;
+    top: 172px;
+  }
 }
