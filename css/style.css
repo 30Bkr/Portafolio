@@ -870,8 +870,11 @@ h2{
     height: 60px;
     border-radius: 50%;
     padding-top: 16px;
-
 }
+.ico2{
+  padding-left: 10px;
+}
+
 @media screen and (max-width:800px) {
   .contenedor-contacto1{
     scroll-snap-type: y mandatory;
@@ -943,11 +946,20 @@ h2{
   }
   .slide1{
     right: -64px;
-    top: 172px;
+    top: 190px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
   }
   .slide2{
     left: -72px;
-    top: 172px;
+    top: 190px;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+  }
+  .ico{
+    color: black;
   }
   .slider__card-icono{
     width: 50px;
