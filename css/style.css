@@ -928,4 +928,10 @@ h2{
     left: -72px;
     top: 172px;
   }
+  .slider__card-icono{
+    width: 50px;
+  }
+  .slider__card-2{
+    gap: 0.1rem;
+  }
 }
