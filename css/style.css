@@ -826,6 +826,13 @@ h2,
     height: 64px;
   }
   .presentacion__secundaria{
-    padding: 0;
+    padding: 0 10px;
+    flex-direction: column;
+  }
+  .presentacion__secundaria h1,.presentacion__secundaria p{
+    margin-bottom: 16px;
+  }
+  .presentacion__secundaria-container{
+    margin-top: 32px;
   }
 }
