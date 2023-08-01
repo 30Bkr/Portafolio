@@ -574,7 +574,7 @@ body {
 .presentacion__tercera-container figure:hover > p {
   opacity: 1;
 }
-.presentacion__tercera-container figure:nth-child(1) {
+.presentacion__tercera-container figure:nth-child(7) {
   border-radius: 8px 0 0 8px;
 }
 .presentacion__tercera-container figure:nth-last-child(1) {
@@ -602,6 +602,7 @@ h2,
   z-index: 1;
   display: flex;
 }
+
 .slider__card {
   box-shadow: 0px 0px 16px -4px white;
   display: grid;
@@ -670,8 +671,8 @@ h2,
   }
 }
 .paginas {
-  width: 300px;
-  height: 170px;
+  width: 90%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0px 0px 8px 1px;
   margin-top: 8px;
@@ -684,8 +685,8 @@ h2,
   gap: 1rem;
 }
 .slider__card-icono {
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: auto;
   gap: 1rem;
 }
 
@@ -841,4 +842,5 @@ h2,
   .presentacion__tercera-container figure:hover{
     width: 120px;
   }
+
 }
