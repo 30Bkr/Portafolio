@@ -883,6 +883,12 @@ h2{
     height: 60px;
     width: 100%;
     position: fixed;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #cabecera ul{
+    position: relative;
   }
   .presentacion__principal{
     animation: none;
@@ -896,6 +902,13 @@ h2{
   }
   #cabecera p{
     font-size: 16px;
+    color: white;
+    width: 100px;
+  }
+  .ctac {
+    position: absolute;
+    top: -16px;
+    right: 12px;
   }
   .presentacion__principal{
     width: 100vw;
