@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #fde5ec #b9f3fc #4e4feb #000000;
+  overflow: hidden;
   position: relative;
 }
 #cabecera {
@@ -68,7 +68,19 @@ body {
   color: #ff8e9e;
   transition: 0.5s;
 }
-
+.contenedor-contacto1{
+  overflow-y: scroll;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+#inicio,
+#habilidades,
+#sobreMi,
+#proyectos{
+  scroll-snap-align: center;
+}
 .container {
   padding: 0 24px;
 }
@@ -77,6 +89,7 @@ body {
   flex-direction: column;
   justify-items: center;
 }
+
 .presentacion__principal {
   display: flex;
   flex-direction: column;
@@ -860,12 +873,19 @@ h2{
 
 }
 @media screen and (max-width:800px) {
+  .contenedor-contacto1{
+    scroll-snap-type: y mandatory;
+  }
   #cabecera{
     height: 60px;
     width: 100%;
     position: fixed;
   }
-  .ct,.magia5,.magia4,.magia1,.magia3,.magia,.bolita4{
+  .presentacion__principal{
+    animation: none;
+  }
+  .ct,.magia5,.magia4,.magia1,.magia3,.magia,.bolita4, .bolita3, .magia2{
+    animation: none;
     display: none;
   }
   .bolita{
@@ -919,6 +939,7 @@ h2{
   .slider{
     width: 300px;
     height: 480px;
+
   }
   .slide1{
     right: -64px;
