@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 #cabecera {
@@ -27,6 +27,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   color: white;
+  text-shadow: 0px 0px 8px black;
 }
 #cabecera ul {
   display: flex;
@@ -44,9 +45,13 @@ body {
 }
 #cabecera a {
   text-decoration: none;
+  text-shadow: 0px 0px 8px black;
 }
 .ct {
   color: white;
+}
+.seleccionado{
+  color: #ff8e9e;
 }
 .ctac {
   padding: 10px 24px;
@@ -453,7 +458,15 @@ body {
   align-items: center;
   justify-content: center;
   background: white;
-  animation: aparece 10s linear infinite;
+  animation: aparece 10s linear ;
+}
+.magia:hover,
+.magia1:hover,
+.magia2:hover,
+.magia3:hover,
+.magia4:hover,
+.magia5:hover{
+  animation: none;
 }
 .magia1 {
   display: flex;
@@ -467,7 +480,7 @@ body {
   align-items: center;
   justify-content: center;
   background: white;
-  animation: aparece 18s linear infinite;
+  animation: aparece 18s linear ;
 }
 .magia2 {
   display: flex;
@@ -481,7 +494,7 @@ body {
   align-items: center;
   justify-content: center;
   background: white;
-  animation: aparece 25s linear infinite;
+  animation: aparece 25s linear ;
 }
 .magia3 {
   display: flex;
@@ -495,7 +508,7 @@ body {
   align-items: center;
   justify-content: center;
   background: white;
-  animation: aparece 13s linear infinite;
+  animation: aparece 13s linear ;
 }
 .magia4 {
   display: flex;
@@ -509,7 +522,7 @@ body {
   align-items: center;
   justify-content: center;
   background: white;
-  animation: aparece 9s linear infinite;
+  animation: aparece 9s linear ;
 }
 .magia5 {
   display: flex;
@@ -523,7 +536,7 @@ body {
   align-items: center;
   justify-content: center;
   background: white;
-  animation: aparece 18s linear infinite;
+  animation: aparece 18s linear ;
 }
 
 .magia2 img,
@@ -536,8 +549,8 @@ body {
 }
 .magia img,
 .magia1 img {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
 }
 .magia3 img {
@@ -882,7 +895,17 @@ h2{
 .ico2{
   padding-left: 10px;
 }
-
+@media screen and (min-width:1130px) {
+  .slider{
+    background: none;
+    box-shadow: none;
+    overflow:visible;
+    border: none;
+  }
+  .slide1, .slide2{
+    display: none;
+  }
+}
 @media screen and (max-width:800px) {
   .contenedor-contacto1{
     scroll-snap-type: y mandatory;
@@ -901,7 +924,7 @@ h2{
   .presentacion__principal{
     animation: none;
   }
-  .ct,.magia5,.magia4,.magia1,.magia3,.magia,.bolita4, .bolita3, .magia2{
+  .ct,.magia5,.magia4,.magia1,.magia3,.magia,.bolita4, .bolita3, .magia2,.seleccionado{
     animation: none;
     display: none;
   }
@@ -949,10 +972,13 @@ h2{
     margin-top: 32px;
   }
   .presentacion__tercera-container{
-    width: 90%;
+    width: 98%;
   }
   .presentacion__tercera-container figure:hover{
     width: 120px;
+  }
+  .presentacion__tercera-container figure p{
+    width: 153px;
   }
   .proyectos p {
     margin: 40px 0;

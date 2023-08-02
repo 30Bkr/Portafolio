@@ -1,3 +1,4 @@
+'use strict';
 const slider = document.querySelector('.slider__contenedor')
 let slideSection = document.querySelectorAll('.slider__card')
 let sliderSectionLast = slideSection[slideSection.length -1];
@@ -10,19 +11,30 @@ slide1.addEventListener('click', siguiente)
 slide2.addEventListener('click', anterior)
 
 slider.insertAdjacentElement('afterbegin', sliderSectionLast)
+let header = document.getElementById("cabecera");
+let navbar = document.querySelector('.contenedor-contacto1')
+navbar.addEventListener("scroll", mira);
 
+let degradado = document.querySelector('#popup')
+degradado.addEventListener('click', toggle);
+
+let cerrar = document.getElementById('cerrar-popup')
+cerrar.addEventListener('click', toggle)
 
 
 
 
 function iniciarPagina() {
-  let degradado = document.getElementById('popup')
-  degradado.addEventListener('click', toggle);
-
-  let cerrar = document.getElementById('cerrar-popup')
-  cerrar.addEventListener('click', toggle)
+}
+function seleccionar(link){
+    let opciones = document.querySelectorAll('a');
 
 
+    opciones[0].classList = 'ct'
+    opciones[1].classList = 'ct'
+    opciones[2].classList = 'ct'
+    opciones[3].classList = 'ct'
+    link.classList = 'seleccionado'
 }
 function toggle() {
   let perciana = document.getElementById('perciana');
@@ -57,15 +69,11 @@ function anterior(){
   console.log('anterior')
 }
 
-let header = document.getElementById("cabecera");
-window.addEventListener("scroll", () => {
-  let scroll = window.scrollY;
-  if (scroll > 10) {
+
+function mira(){
+
     header.style.backgroundColor = "transparent";
     header.style.boxShadow = "0px 0px 10px 4px black";
-  } else {
-    header.style.backgroundColor = "transparent";
-  }
-});
-
+}
 window.addEventListener("load", iniciarPagina);
+

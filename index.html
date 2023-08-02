@@ -17,7 +17,7 @@
   <div class="contenedor-contacto" id="contactame">
     <div class="contacto">
       <div class="contacto__text">
-        <button id="cerrar-popup" type="button"><span class="material-symbols-outlined">
+        <button id="cerrar-popup" type="button" onclick="toggle()"><span class="material-symbols-outlined">
           close
           </span></button>
         <h2>Contactame</h2>
@@ -49,13 +49,13 @@
   <div class="contenedor-contacto1" id="perciana">
     <nav id="cabecera">
       <p>Briant Carrillo</p>
-      <ul>
-        <li><a href="#inicio" class="ct">Inicio</a></li>
-        <li><a href="#habilidades" class="ct">Habilidades</a></li>
-        <li><a href="#sobreMi" class="ct">Sobre mi</a></li>
-        <li><a href="#proyectos" class="ct">proyectos</a></li>
+      <ul id="links">
+        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+        <li><a href="#habilidades" class="ct" onclick="seleccionar(this)">Habilidades</a></li>
+        <li><a href="#sobreMi" class="ct" onclick="seleccionar(this)" id="#sobreMi">Sobre mi</a></li>
+        <li><a href="#proyectos" class="ct" onclick="seleccionar(this)">proyectos</a></li>
         <li>
-          <button type="button" class="cta ctac" id="popup">
+          <button type="button" class="cta ctac" id="popup" onclick="toggle()">
             Contactame
           </button>
         </li>
@@ -112,10 +112,10 @@
               Estas son algunas de mis mas fuertes Aptitudes y Habilidades
             </p>
             <ul>
+              <li>Perseverancia</li>
+              <li>Liderazgo</li>
               <li>Creatividad</li>
               <li>Iniciativa</li>
-              <li>Liderazgo</li>
-              <li>Perseverancia</li>
               <li>Resolucion de problemas</li>
               <li>Flexibilidad para el aprendizaje</li>
             </ul>
@@ -153,7 +153,7 @@
       </section>
 
       <section class="presentacion__tercera" id="sobreMi">
-        <h2>Hobbies</h2>
+
 
         <div class="presentacion__tercera-container">
           <div class="magia">
@@ -175,8 +175,12 @@
             <img src="./image/banana.png" alt="" />
           </div>
           <figure>
+            <img src="./image/Libro-y-laptop.png" alt="" />
+            <p>Aprender y Estudiar</p>
+          </figure>
+          <figure>
             <img src="./image/amigos.webp" alt="" />
-            <p>Pasar momentos con Familia y Amigos</p>
+            <p>Pasar tiempo con Familia y Amigos</p>
           </figure>
           <figure>
             <img src="./image/futbol.jpg" alt="" />
@@ -192,7 +196,7 @@
           </figure>
           <figure>
             <img src="./image/videojuego.jpg" alt="" />
-            <p>Jugar Video Juegos</p>
+            <p>Video Juegos</p>
           </figure>
         </div>
       </section>
@@ -267,8 +271,9 @@
 
   </div>
 
-  <script href="./js/esto.js">
+  <script src="./js/script.js">
   </script>
+
 </body>
 
 </html>
