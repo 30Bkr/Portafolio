@@ -8,6 +8,23 @@ body {
   /* overflow: hidden; */
   position: relative;
 }
+#phone{
+  position: absolute;
+  background: transparent;
+  color: white;
+  animation: mueve 1s  infinite;
+  bottom: 32px;
+  z-index: 15;
+  right: 32px;
+}
+@keyframes mueve {
+  from {
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(10px);
+  }
+}
 #cabecera {
   width: 100%;
   position: fixed;
@@ -222,6 +239,7 @@ body {
   word-spacing: 5px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+          background-clip: text;
   animation: color 10s infinite;
 }
 
@@ -903,6 +921,12 @@ h2{
     border: none;
   }
   .slide1, .slide2{
+    display: none;
+  }
+  
+}
+@media screen and (min-width:801px){
+  #phone{
     display: none;
   }
 }

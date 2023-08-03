@@ -2,6 +2,9 @@
 const slider = document.querySelector('.slider__contenedor')
 let slideSection = document.querySelectorAll('.slider__card')
 let sliderSectionLast = slideSection[slideSection.length -1];
+let phone = document.querySelector('#phone')
+let uno = document.querySelector('.presentacion__principal')
+
 
 
 const slide1 = document.querySelector('.slide1')
@@ -74,6 +77,8 @@ function mira(){
 
     header.style.backgroundColor = "transparent";
     header.style.boxShadow = "0px 0px 10px 4px black";
+    phone.style.display = 'none'
+
 }
 window.addEventListener("load", iniciarPagina);
 
